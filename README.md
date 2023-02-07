@@ -1,16 +1,43 @@
 # prueba_tecnica
 
-A new Flutter project.
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+## Introducción
 
-A few resources to get you started if this is your first Flutter project:
+El test de código de PeopleCloud consiste en desarrollar la siguiente historia de
+usuario cumpliendo con los distintos criterios de comprobación.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Historia de usuario
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Como Administrador de PeopleCloud
+Puedo visualizar las vacantes publicadas en el feed de Indeed
+Para conocer los detalles de cada vacante
+
+## Criterios de comprobación
+
+Escenario: Listado de vacantes
+Dado que han sido publicadas una o más vacantes en Indeed
+Cuando navego a la sección de vacantes
+Entonces entonces se muestran las vacantes
+Y se muestran los datos por cada registro
+## Escenario: Detalle de vacante
+Dado que he navegado a las sección de vacantes
+Y se muestra por lo menos una
+Cuando selecciono la acción de Ver detalle
+Entonces se muestra la descripción de la vacante
+
+# Detalle
+## Datos por cada registro
+● Empresa: company
+● Título: title
+● Fecha de publicación: date
+● Lugar: city, state, country
+● Acciones: Ver detalle
+## Descripción de la vacante
+● description
+
+
+
+
